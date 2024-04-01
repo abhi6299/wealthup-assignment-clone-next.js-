@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend view of a financial health application
 
-## Getting Started
+## Introduction
+A simplified interface for a **financial health application** system is designed to manage basic business operations efficiently. 
 
-First, run the development server:
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Screenshots](#screenshots)
+- [Deployment](#deployment)
+## Installation
+1. Clone the directory
+   ```
+   git clone <repo_URL>
+   ```
+3. Navigate to the project directory
+   ```
+   cd <Project_directory>
+   ```
+4. Install Dependencies
+   ```markdown
+   npm i
+   ```
 
-```bash
+## Usage
+1. Start the development server:
+```markdown
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+2. Open your browser:
+```bash
+  Open the browser and go to http://localhost:3000 to view the running UI.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
+Kindly create a PR for any contribution or suggestions. Thanks!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Screenshots of the Application
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Screenshot (1082)](https://github.com/abhi6299/wealthup-assignment-clone-next.js-/assets/48280843/dc7cb6eb-c9f3-4710-8cf3-6a79c7b6e65f)
 
-## Learn More
+![Screenshot (1083)](https://github.com/abhi6299/wealthup-assignment-clone-next.js-/assets/48280843/d3a57686-5089-42a5-9f66-f0be41eeec9d)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Deployment
+Deployed link: https://wealthup-assignment-clone-next-js.vercel.app/
