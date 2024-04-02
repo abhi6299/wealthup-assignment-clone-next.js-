@@ -1,10 +1,15 @@
+
 .container {
-  background-color: #5479a0;
+  /* background-color: #5479a0; */
+  background-image: linear-gradient(to right, #3559a1, #63b4f6),
+                    linear-gradient(to bottom, #3559a1, #86b6dd);
   min-height: 100vh;
   /* padding: 0 0.5rem; */
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
+  margin: 0;
+  padding:0;
   /* align-items: center; */
 }
 
@@ -14,11 +19,20 @@
   text-align: center;
   color:white;
   width:70%;
+  /* position: relative; */
 }
 
 .main p{
+  padding:0px;
+  margin:0px;
+  font-weight: lighter;
+}
+
+.subheading{
   font-size:1.2rem;
-  padding-top: 1.5%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:100;
+  margin-top:1%;
 }
 
 .title {
@@ -26,23 +40,27 @@
   line-height: 1.15;
   font-size: 4rem;
   color:white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .button {
   display: inline-block;
-  padding: 1rem 1rem;
+  padding: 0.8rem 1.2rem;
   margin-top: 2rem;
-  background-color: #0070f3;
+  background-color: orange;
   color: #fff;
   border: none;
   border-radius: 5rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing:1px;
   text-decoration: none;
   cursor: pointer;
 }
 
 .button:hover {
-  background-color: #0058b3;
+  background-color: orangered;
 }
 
 .middleParent{
@@ -54,43 +72,112 @@
 }
 .middleChild{
   display: inline-block;
-  width:18vw;
+  width:25vw;
   /* border:1px solid red; */
   margin-top: 10%;
 }
+.middleChild div{
+  display: flex;
+  justify-content: flex-start;
+  margin:5%;
+}
+.middleChild div span{
+  width:10%;
+}
+.middleChild div span img{
+  width:100%;
+}
 .middleChild p{
   font-size:1.3rem;
-  padding-top:25%;
-  padding-bottom: 2%;
+  /* padding-top:25%; */
+  /* padding-bottom: 2%; */
   border-bottom:2px solid white;
   font-family: sans-serif;
+  margin-left:3%;
 }
 .middleChildImg{
   width:21vw;
+  height:75vh;
+  border-radius: 3rem;
   /* border:2px solid red; */
+  box-shadow: 10px 10px 35px black;
 }
 .middleChildImg img{
   width:100%;
+  border-radius: 3rem;
+  height: inherit;
+}
+
+/* Footer ---------------- */
+
+.footer{
+  background-color: rgb(56, 92, 164);
+  /* border:2px solid red; */
+  width:98.8%;
+  position: absolute;
+  left:8px;
+/* border-radius: 50% / 100%; Create a circular shape */
+  /* transform: scaleY(2); */
 }
 
 .footerHeading{
   font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 3%;
+}
+
+.footerSectionIcons{
+  display: flex;
+  /* padding-top:3%; */
+  justify-content:center;
+  font-size: 1rem;
+  font-weight: 500;
+  /* position: relative; */
+}
+.footerSectionIcons span:nth-child(odd){
+  width:5vw;
+  position: relative;
+  /* border:2px solid red; */
+}
+.footerSectionIcons span:nth-child(even){
+  font-size: 1.2rem;
+  padding-top:3%;
+}
+
+.footerSectionIcons span img{
+  width: 100%;
+  height: 80%;
 }
 
 .footerSection{
+  /* width:70%; */
   display: flex;
-  padding-top:3%;
-  justify-content: space-around;
+  /* padding-top:3%; */
+  justify-content: center;
   font-size: 1rem;
   font-weight: 500;
 }
 
 .footerSection span{
   /* border:1px solid black; */
+  margin:0% 5%;
   display: inline-block;
   width:170px;
   padding:5px;
   font-family: sans-serif;
   font-weight: 300;
-  box-shadow: 0px 0px 8px black;
+  text-align: center;
+  /* box-shadow: 0px 0px 8px black; */
+}
+
+.dot{
+  position:absolute;
+  top:0;
+  left:-2%;
+  border-radius: 50%;
+  width:20px;
+  background-color: green;
+  color:white;
+  padding:3%;
+  /* font-size: 0.8rem; */
 }
